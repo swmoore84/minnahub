@@ -79,6 +79,9 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.12.0)
+    ffi (1.15.5)
+    font-awesome-sass (6.4.0)
+      sassc (~> 2.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -153,6 +156,11 @@ GEM
     redis (4.8.1)
     reline (0.3.3)
       io-console (~> 0.5)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    simple_form (5.2.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -187,12 +195,14 @@ DEPENDENCIES
   bootsnap
   cssbundling-rails
   debug
+  font-awesome-sass
   jbuilder
   jsbundling-rails
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
+  simple_form
   sprockets-rails
   stimulus-rails
   turbo-rails
